@@ -1,0 +1,16 @@
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\App.g.i.cs
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\App.g.cs
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\App.xaml
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\Page.xaml
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\_Colors.xaml
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\_FontSizes.xaml
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\_Thickness.xaml
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\TextBlock.xaml
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Views\MainPage.xaml
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\App.xbf
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\Page.xbf
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\_Colors.xbf
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\_FontSizes.xbf
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\_Thickness.xbf
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Styles\TextBlock.xbf
+E:\Downloads\PropertySample_part1\PropertySample\PropertySample\obj\x86\Debug\Views\MainPage.xbf
