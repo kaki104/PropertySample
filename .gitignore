@@ -2,5 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/PropertySample/obj
+/.vs/
+/PropertySample/obj/
+/PropertySample/obj/x86/Debug	
+/PropertySample/bin/
