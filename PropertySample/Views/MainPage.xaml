@@ -1,12 +1,16 @@
 ﻿<Page
-    x:Class="PropertySample.Views.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:commons="using:PropertySample.Commons"
-    Style="{StaticResource PageStyle}" FontSize="20"
-    mc:Ignorable="d">
+    xmlns:ViewModels="using:PropertySample.ViewModels"
+    x:Class="PropertySample.Views.MainPage"
+    Style="{StaticResource PageStyle}" 
+    mc:Ignorable="d" FontSize="30">
+    <Page.DataContext>
+        <ViewModels:MainViewModel/>
+    </Page.DataContext>
     <Grid
         x:Name="ContentArea"
         Margin="{StaticResource MediumLeftRightMargin}">
@@ -21,26 +25,13 @@
             x:Uid="Main_Title"
             Style="{StaticResource PageTitleStyle}" />
 
-        <Grid 
-            Grid.Row="1" 
-            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-
-            <Canvas>
-                <Rectangle Width="100" Height="100" Fill="Red"
-                           Canvas.Top="100" Canvas.Left="100"/>
-            </Canvas>
-            
-            <StackPanel Grid.Column="1" VerticalAlignment="Center">
-                <TextBlock Text="Property Sample" Margin="0 20"/>
-                <TextBlock Text="PasswordBox"/>
-                <PasswordBox x:Name="passwordBox" commons:ExPropertys.IsPasswordBindable="True"/>
-                <TextBlock Text="Password you entered"/>
-                <TextBlock Text="{Binding (commons:ExPropertys.BindablePassword), ElementName=passwordBox}"/>
-            </StackPanel>
-        </Grid>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="textBlock0" Text="Part0" Margin="10" />
+            <Button Content="Part0 Go" Command="{Binding GotoCommand}"
+                    CommandParameter="{Binding Text, ElementName=textBlock0}"/>
+            <TextBlock x:Name="textBlock1" Text="Part1" Margin="10" />
+            <Button Content="Part1 Go" Command="{Binding GotoCommand}"
+                    CommandParameter="{Binding Text, ElementName=textBlock1}"/>
+        </StackPanel>
     </Grid>
 </Page>

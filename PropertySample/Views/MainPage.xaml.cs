@@ -14,5 +14,7 @@ namespace PropertySample.Views
         {
             InitializeComponent();
         }
+
+
     }
 }
