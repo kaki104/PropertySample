@@ -3,5 +3,4 @@
 * Target version 15063
 * Min version 14393
 
-# Post
-## http://kaki104.tistory.com/562
+# Post : http://kaki104.tistory.com/562
